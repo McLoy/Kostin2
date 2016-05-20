@@ -16,6 +16,17 @@ public class Main {
         }
         System.out.println("Сумма чисел в числе " + n + " = " + res);
 
+        double rr = 12.56;
+        System.out.println((int)rr);
+
+        int nn = 307, res2 = 0;
+        char Symbols2[];
+        Symbols2 = String.valueOf(nn).toCharArray();
+        for (int i = 0; i <Symbols2.length; i++) {
+            res2 = res2 + Character.getNumericValue(Symbols2[i]);
+        }
+        System.out.println("Сумма чисел в числе " + nn + " = " + res2);
+
 
     }
 }
